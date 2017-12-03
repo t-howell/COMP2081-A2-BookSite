@@ -1,0 +1,32 @@
+/* Main styles */
+html {
+    background-color: #fff;
+}
+p {
+    padding: 2em;
+}
+/*Nav styles */
+
+/*Content block 1 */
+.col-6:nth-of-type(1) {
+    background-color: orange;
+}
+.col-6:nth-of-type(1) img {
+    padding: 2em;
+}
+
+/* Content block 2 */
+.col-6:nth-of-type(2) {
+    background-color: #fff;
+}
+
+/* Content block 3 */
+.row:nth-of-type(2) .col-6:nth-of-type(1) {
+    background-color: #fff;
+    border: 2px solid #222;
+}
+
+/* Content block 4 */
+.row:nth-of-type(2) .col-6:nth-of-type(2) {
+    
+}
