@@ -1,32 +1,83 @@
 /* Main styles */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 html {
     background-color: #fff;
 }
+body {
+    font-family: 'Nunito', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+a {
+    color: #111;
+}
+a:hover {
+    color: #FD5D00;
+    text-decoration: none;
+}
+main {
+    background: lightgrey;
+}
 p {
-    padding: 2em;
+    padding-top: .5em;
 }
 /*Nav styles */
-
-/*Content block 1 */
-.col-6:nth-of-type(1) {
-    background-color: orange;
+.navbar {
+    width: 100%;
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-.col-6:nth-of-type(1) img {
+/*Content block 1 */
+.col-md-6:nth-of-type(1) {
+    background-color: #fff;
+}
+.col-md-6:nth-of-type(1) img {
     padding: 2em;
 }
 
 /* Content block 2 */
-.col-6:nth-of-type(2) {
+.col-md-6:nth-of-type(2) {
     background-color: #fff;
 }
 
-/* Content block 3 */
-.row:nth-of-type(2) .col-6:nth-of-type(1) {
+/* BUY NOW SECTION */
+.row:nth-of-type(2) {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
     background-color: #fff;
-    border: 2px solid #222;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+div > button {
+    border: .1em black solid;
+    border-radius: 10px;
+    font-size: 120%;
+    color: black;
+    padding: .5em;
+}
+/* Content block 3 */
+.row:nth-of-type(3) .col-md-6:nth-of-type(1) {
+    background-color: #fff;
 }
 
 /* Content block 4 */
-.row:nth-of-type(2) .col-6:nth-of-type(2) {
-    
+.row:nth-of-type(3) .col-md-6:nth-of-type(2) {
+    background: #fff;
+}
+.row:nth-of-type(3) {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: #fff;
+}
+h3 {
+display: flex;
+padding: 1%;
+}
+/* Footer styles */
+footer {
+    background: #111;
+    height: 100%;
 }
